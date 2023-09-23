@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+body {
+  background-color: #854b3f; /* Your desired color */
+  margin-top: 60px;
+  overflow-x: hidden; /* Lock horizontal scroll */
+  cursor: pointer;
+}
+
+/* ... rest of your CSS ... */
+
+.header {
+  margin: auto;
+  position: relative;
+  font-family: 'Space Mono', monospace;
+  color: #663931;
+}
+
+.parallax-container {
+  height: 100vh; /* Full viewport height */
+  width: 100%;  /* Full viewport width */
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.layer {
+  height: 100vh; /* Full viewport height */
+  position: absolute;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.layer_bottom {
+  height: 220px; /* Full viewport height */
+
+  width: 100%;
+  bottom: 50px;
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-image: url('assets/bottom.gif');
+}
+
+#layer1 {
+  background-image: url('assets/bg_sky.png');
+  z-index: -2;
+}
+
+#layer2 {
+  background-image: url('assets/bg_mountainclose.gif');
+}
+
+#layer3 {
+  background-image: url('assets/bg_mountaincloser.gif');
+}
+
+#layer4 {
+  background-image: url('assets/bg_ground.gif');
+  z-index: 2;
+}
+
+.pet {
+  position: absolute;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  bottom: 23vh;
+}
+
+/*-------- Bong -------- */
+#bong {
+  height: 220px; /* Full viewport height */
+  width: 220px;
+  image-rendering: pixelated;
+  z-index: 1;
+  left: 940px;
+  transform: scaleX(-1);
+}
+
+#bong_char {
+  height: 180px; /* Full viewport height */
+  width: 180px;
+  image-rendering: pixelated;
+}
+
+#bong_char:active {
+  background-image: url('assets/spritesheets/bong/Bong-love.gif');
+}
+
+#bong_char:hover {
+  cursor: url('assets/heart_cursor.png'), auto;
+}
+
+.bong_idle {
+  background-image: url('assets/spritesheets/bong/Bong-idle.gif');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bong_moving {
+  background-image: url('assets/spritesheets/bong/Bong-walk.gif');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bong_sleep {
+  background-image: url('assets/spritesheets/bong/Bong-sleep.gif');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bong_love {
+  background-image: url('assets/spritesheets/bong/Bong-love.gif');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/*-------- Oe -------- */
+#oe {
+  height: 420px; /* Full viewport height */
+  width: 420px;
+  image-rendering: pixelated;
+  z-index: 1;
+  left: 60px;
+}
+
+#oe_char {
+  height: 180px; /* Full viewport height */
+  width: 180px;
+  image-rendering: pixelated;
+}
+
+#oe_char:active {
+  background-image: url('assets/spritesheets/oe/oe-love.gif');
+}
+
+#oe_char:hover {
+  cursor: url('assets/heart_cursor.png'), auto;
+}
+
+.oe_sleep {
+  background-image: url('assets/spritesheets/oe/oe-sleep.gif');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.oe_idle {
+  background-image: url('assets/spritesheets/oe/oe-idle.gif');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.oe_moving {
+  background-image: url('assets/spritesheets/oe/oe-walk.gif');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/*-------- Hai -------- */
+#hai {
+  height: 280px; /* Full viewport height */
+  width: 280px;
+  image-rendering: pixelated;
+  z-index: 0;
+  left: 640px;
+}
+
+#hai_char {
+  height: 180px; /* Full viewport height */
+  width: 180px;
+  image-rendering: pixelated;
+}
+
+#hai_char:active {
+  background-image: url('assets/spritesheets/hai/Hai-love.gif');
+}
+
+#hai_char:hover {
+  cursor: url('assets/heart_cursor.png'), auto;
+}
+
+.hai_idle {
+  background-image: url('assets/spritesheets/hai/Hai-idle.gif');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  image-rendering: pixelated;
+}
+
+.hai_moving {
+  background-image: url('assets/spritesheets/hai/Hai-walk.gif');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hai_sleep {
+  background-image: url('assets/spritesheets/hai/Hai-sleep.gif');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.box {
+  padding: 0 0 60px 60px;
+  background-color: #854b3f;
+  margin: auto;
+  position: relative;
+  font-family: 'Space Mono', monospace;
+  color: white;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 72px;
+}
+
+.letter {
+  background-color: wheat;
+  padding: 16px;
+  position: relative;
+  margin: auto;
+  color: black;
+  border-radius: 0px 20px 0px 20px;
+  font-size: 32px;
+  vertical-align: bottom;
+}
+
+.letterBig {
+  background-color: wheat;
+  padding-top: 60px;
+  padding-left: 240px;
+  padding-right: 240px;
+  position: relative;
+  margin: auto;
+  color: black;
+  border-radius: 0px 20px 0px 20px;
+  font-size: 32px;
+  vertical-align: bottom;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  
+}
+
+.column {
+  flex: 1;
+}
+
