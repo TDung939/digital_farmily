@@ -262,3 +262,10 @@ h1 {
   flex: 1;
 }
 
+#playButton {
+  margin: 20px;
+  position: absolute;
+  font-family: 'Space Mono', monospace;
+  font-size: 24px;
+  z-index: 9;
+}

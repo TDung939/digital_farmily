@@ -31,3 +31,20 @@ document.addEventListener('wheel', function(event) {
     event.preventDefault();
   }
 }, { passive: false });
+
+document.addEventListener("DOMContentLoaded", function() {
+  const audioElement = document.getElementById("myAudio");
+
+  
+  // Attempt to play audio
+  audioElement.play().catch(function(error) {
+    console.log("Auto-play failed: ", error);
+  });
+  audioElement.volume = 0.1;
+  
+});
+
+document.getElementById("playButton").addEventListener("click", function() {
+  const audioElement = document.getElementById("myAudio");
+  audioElement.play();
+});
