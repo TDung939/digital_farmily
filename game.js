@@ -4,7 +4,8 @@ let speed = 3;
 const objects = [
   // { el: document.getElementById('oe'), lastX: 60, targetX: 0, speed: 6},
   { el: document.getElementById('bong'), lastX: 940, targetX: 0, speed: 4},
-  { el: document.getElementById('hai'), lastX: 640, targetX: 0, speed: 2}
+  { el: document.getElementById('hai'), lastX: 640, targetX: 0, speed: 2},
+  { el: document.getElementById('bep'), lastX: 230, targetX: 0, speed: 3}
 ];
 
 function moveObject(obj) {

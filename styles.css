@@ -83,8 +83,8 @@ body {
 }
 
 #bong_char {
-  height: 180px; /* Full viewport height */
-  width: 180px;
+  height: 120px; /* Full viewport height */
+  width: 120px;
   image-rendering: pixelated;
 }
 
@@ -134,8 +134,8 @@ body {
 }
 
 #oe_char {
-  height: 180px; /* Full viewport height */
-  width: 180px;
+  height: 120px; /* Full viewport height */
+  width: 120px;
   image-rendering: pixelated;
 }
 
@@ -178,8 +178,8 @@ body {
 }
 
 #hai_char {
-  height: 180px; /* Full viewport height */
-  width: 180px;
+  height: 120px; /* Full viewport height */
+  width: 120px;
   image-rendering: pixelated;
 }
 
@@ -212,6 +212,60 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+
+/*-------- Bep -------- */
+#bep {
+  height: 220px; /* Full viewport height */
+  width: 220px;
+  image-rendering: pixelated;
+  z-index: 6;
+  left: 230px;
+  transform: scaleX(-1);
+}
+
+#bep_char {
+  height: 120px; /* Full viewport height */
+  width: 120px;
+  image-rendering: pixelated;
+}
+
+#bep_char:active {
+  background-image: url('assets/spritesheets/bep-love.gif');
+}
+
+#bep_char:hover {
+  cursor: url('assets/heart_cursor.png'), auto;
+}
+
+.bep_idle {
+  background-image: url('assets/spritesheets/bep_idle.gif');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bep_moving {
+  background-image: url('assets/spritesheets/bep-walk.gif');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bep_sleep {
+  background-image: url('assets/spritesheets/bep-sleep.gif');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bep_love {
+  background-image: url('assets/spritesheets/bep-love.gif');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 
 .box {
   padding: 0 0 60px 60px;
@@ -257,7 +311,6 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  
 }
 
 .column {
