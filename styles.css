@@ -51,6 +51,12 @@ body {
   z-index: -2;
 }
 
+#layerLetter {
+  margin: auto;
+  font-family: 'Space Mono', monospace;
+  color: white;
+}
+
 #layer2 {
   background-image: url('assets/bg_mountainclose.gif');
 }
@@ -69,7 +75,7 @@ body {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  bottom: 23vh;
+  bottom: 20vh;
 }
 
 /*-------- Bong -------- */

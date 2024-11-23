@@ -7,15 +7,15 @@
   </head>
 
   <body>
-    <div class="header">
-      <h1>Nhi & Dung's Digital Farmily</h1>
-    </div>
     <div class="parallax-container">
       <button id="playButton" style="position: absolute; margin: 2">
         Play Music
       </button>
       <div class="layer" id="layer1"></div>
       <div class="layer" id="layer2"></div>
+      <div class="layer" id="layerLetter">
+        <h1>Nhi & Dung's Digital Farmily</h1>
+      </div>
       <div class="layer" id="layer3"></div>
       <div class="layer" id="layer4"></div>
       <div id="oe" class="pet oe_sleep"></div>
@@ -25,7 +25,7 @@
     </div>
 
     <div class="box">
-      <h1>Our Digital Farmily!</h1>
+      <h1>Meet our family members!</h1>
       <h2 style="text-align: center">Give them some luv</h2>
     </div>
 
@@ -96,29 +96,24 @@
     </div>
 
     <div class="box">
-      <div class="letterBig">
+      <h2>Select a Letter</h2>
+      <select id="letterDropdown" onchange="displaySelectedLetter()">
+        <option value="7th" selected>24/9/2023 - 7th Month Anniversary</option>
+        <option value="8th" selected>24/10/2023 - 8th Month Anniversary</option>
+        <option value="9th" selected>24/11/2023 - 9th Month Anniversary</option>
+        <option value="10th" selected>24/12/2023 - 10th Month Anniversary</option>
+        <option value="12th" selected>24/02/2024 - 12th Month Anniversary</option>
+        <option value="14th" selected>24/4/2024 - 14th Month Anniversary</option>
+        <option value="17th" selected>24/7/2024 - 17th Month Anniversary</option>
+        <option value="21th" selected>24/11/2024 - 21th Month Anniversary</option>
+      </select>
+    </div>
 
-
-        <p>24/7/2024</p>
-
-        <p>Happy 17th Month Anniversary, my bbb!</p>
-
-        <p>Seventeen months together is such a great milestone. I love how you traveled all the way from Belgium to Vietnam just to be by my side for my graduation. Your support and love mean so much to me.</p>
-
-        <p>I know I’ve hurt you at times, like when I left you to go to the airport alone :((((( I regret that deeply, and I’m so grateful you forgave me and gave me another chance.</p> 
-
-        <p>Those two weeks we spent together in Ho Chi Minh City were some of the best days I have had in a long time. Watching "Anh trai vượt ngàn chông gai" with you was surprisingly fun, even though I usually don’t enjoy reality shows. Your laughter and enthusiasm made it great. And there’s something so special about sleeping next to you when it rains.</p>
-
-        <p>As we celebrate this special anniversary, I can’t help but look forward to the future with excitement and hope. I can’t wait to be close to you again, to create more beautiful memories, and to keep growing together.</p>
-
-        <p>Thank you for sticking with me, for your patience, and for being the most wonderful person I’ve ever met.</p>
-
-        <p>Here’s to many more months and years of love, laughter, and adventures together. Happy 17th Anniversary, my love.</p>
-
-        <p>With all my heart,</p>
-        <p>Your bé ghệ</p>
-
-
+    <div class="box">
+      <div class="letterBig" >
+        <div id="letterContent">
+          <!-- This is where the selected letter will be displayed -->
+        </div>
         <div class="container">
           <div class="column">
             <div id="oe" class="oe_sleep"></div>
@@ -137,10 +132,6 @@
     </div>
 
     <div class="box">
-      <h1>More coming ❤️</h1>
-    </div>
-
-    <div class="box">
       <div class="layer_bottom"></div>
     </div>
     <audio id="myAudio" preload="auto">
@@ -150,3 +141,6 @@
     <script src="game.js"></script>
   </body>
 </html>
+
+    
+
