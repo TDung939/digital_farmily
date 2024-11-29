@@ -272,6 +272,57 @@ body {
   background-repeat: no-repeat;
 }
 
+/*-------- Nhi -------- */
+#nhi {
+  height: 320px; /* Full viewport height */
+  width: 320px;
+  image-rendering: pixelated;
+  z-index: 6;
+  left: 50px;
+  /* transform: scaleX(-1); */
+}
+
+#nhi_char {
+  height: 120px; /* Full viewport height */
+  width: 120px;
+  image-rendering: pixelated;
+}
+
+/* #bep_char:active {
+  background-image: url('assets/spritesheets/bep-love.gif');
+}
+
+#bep_char:hover {
+  cursor: url('assets/heart_cursor.png'), auto;
+} */
+
+.nhi_idle {
+  background-image: url('assets/spritesheets/Nhi_idle.gif');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.nhi_moving {
+  background-image: url('assets/spritesheets/Nhi_walk.gif');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* .bep_sleep {
+  background-image: url('assets/spritesheets/bep-sleep.gif');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bep_love {
+  background-image: url('assets/spritesheets/bep-love.gif');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+} */
 
 .box {
   padding: 0 0 60px 60px;
