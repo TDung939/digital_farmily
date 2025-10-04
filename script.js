@@ -175,7 +175,17 @@ const letters = {
     <p>Here’s to us, bb. Here’s to 21 months of love and to all the months and years still to come. I love you more than words could ever capture.</p>
     <p>With all my heart,</p>
     <p>Your bé ghệ</p>
-  `
+  `,
+  "birthday25": `
+    <p>BB's 25th Birthday</p>
+    <p>Dear bb,</p>
+    <p>Happy Birthday, my loveeee!</p>
+    <p>I feel sad that I can’t be with you on your special day again. Being away from you, especially today, makes me miss you even more. Sweden feels cold and quiet without you, but hearing your voice every day makes me feel warm and never lonely.</p>
+    <p>Even though we’re apart, you’re always close to my heart. I hope you have a beautiful birthday filled with smiles, love, and everything you deserve (eventhough I can already tell it's been a chaotic birthday haha).</p>
+    <p>I miss you much, bb. Can’t wait until the next time I can bearhug you.</p>
+    <p>With all my love,</p>
+    <p>Your bé ghệ</p>
+  `,
 };
 
 
